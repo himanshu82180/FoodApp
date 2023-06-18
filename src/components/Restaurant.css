@@ -1,0 +1,14 @@
+.checked{
+    color:green;
+    display: inline-block;
+}
+.rating{
+    display:inline-block;
+
+}
+.restaruant-img{
+    width:200px;
+}
+.menu{
+    display:flex;
+}

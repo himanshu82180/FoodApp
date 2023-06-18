@@ -1,0 +1,11 @@
+Why react is fast?
+React uses Virtual dom which is the representation of the actual dom. React uses something known as reconsiliation. It 
+is the process which uses diff algorithm to find out the difference between the trees(dom and virtual dom), 
+and render only the updated portion.
+
+Why we use key?
+when we are using more than one same attribute. we use key so that react can understand which attribute i have to render.
+lazzy loading/code spliting/dyanamic bundling - we will not load all the file when we are loading the app. we will load them when needed.
+for eg:in makemytrip page we have flight section bydefault. so its not loaded train bus and other section with flight.
+all other bundle will come when we click on them. so it will make our app very light and fast.
+when we try to load component ondemand, react try to suspend it. for handle this we use "Suspense".
